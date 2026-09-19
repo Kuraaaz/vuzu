@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vuzu - Best Battlefield 4 Clan</title>
     <meta
@@ -16,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css?v=6" />
+    <link rel="stylesheet" href="css/style.css?v=8" />
   </head>
   <body>
     <div class="noise" aria-hidden="true"></div>
@@ -68,36 +69,18 @@
           <p class="kicker">Evidence</p>
           <h2>Clips</h2>
           <p class="lead">
-            Autoplay so you can’t skip the part where you get embarrassed. Mute if
-            your ego is fragile. Volume up if you like pain.
+            The tape. Watch it here, or admit you peaked in the loading screen.
           </p>
         </div>
         <div class="clip-banner">
-          <video
-            class="clip-reel"
-            src="public/clips/vuzu.mp4"
-            width="2560"
-            height="1440"
-            playsinline
-            loop
-            preload="auto"
-          ></video>
-          <div class="clip-audio">
-            <button class="clip-mute" type="button" aria-pressed="true" aria-label="Unmute video">
-              Muted
-            </button>
-            <label class="clip-volume-wrap">
-              <span>Volume</span>
-              <input
-                class="clip-volume"
-                type="range"
-                min="0"
-                max="1"
-                step="0.01"
-                value="0.7"
-                aria-label="Video volume"
-              />
-            </label>
+          <div class="clip-reel">
+            <iframe
+              src="https://www.youtube.com/embed/LwA2SVcM7Lc?rel=0&modestbranding=1&playsinline=1"
+              title="vuzu highlight reel"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
           </div>
         </div>
         <a
@@ -175,6 +158,6 @@
       <p>vuzu — Battlefield 4. Pink, black, and allergic to your feelings.</p>
     </footer>
 
-    <script src="js/main.js?v=4"></script>
+    <script src="js/main.js?v=8"></script>
   </body>
 </html>
