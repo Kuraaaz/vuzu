@@ -1,9 +1,10 @@
 const roster = [
-  { name: "PrimeLexus", role: "Squad lead", detail: "Calls the shots. Also the insults." },
-  { name: "Lonely", role: "Recon", detail: "You never saw him. Your corpse did." },
-  { name: "Ukn0wnTP2, Kura", role: "Assault", detail: "Runs at you like the tutorial never loaded." },
-  { name: "Unkn0wnTP, Lexus", role: "Support", detail: "Ammo for us. Therapy for you." },
-  { name: "BarbaBaltrou", role: "Engineer", detail: "Your tank is a piñata. He’s got the stick." },
+  { name: "PrimeLexus", role: "Squad lead", detail: "Make the call & the L." },
+  { name: "Lonely", role: "Recon", detail: "Watch your steps. We know where you are." },
+  { name: "Ukn0wnTP2, Kura", role: "Assault", detail: "Medic on drugs." },
+  { name: "PrimeFarming", role: "Assault", detail: "Cutie patootie." },
+  { name: "Unkn0wnTP, Lexus", role: "Support", detail: "The main character." },
+  { name: "BarbaBaltrou", role: "Engineer", detail: "If you don't have holes, imma create one." },
   { name: "Everyone", role: "Flex", detail: "Whatever role ruins your round the most." },
 ];
 
