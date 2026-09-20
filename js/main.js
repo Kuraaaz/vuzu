@@ -2,7 +2,7 @@ const roster = [
   { name: "PrimeLexus", role: "Squad lead", detail: "Make the call & the L." },
   { name: "Lonely", role: "Recon", detail: "Watch your steps. We know where you are." },
   { name: "Ukn0wnTP2, Kura", role: "Assault", detail: "Medic on drugs." },
-  { name: "PrimeFarming", role: "Assault", detail: "Cutie patootie." },
+  { name: "PrimeFarming", role: "Assault", detail: "Cutie patootie, farm ruzu clan." },
   { name: "Unkn0wnTP, Lexus", role: "Support", detail: "The main character." },
   { name: "BarbaBaltrou", role: "Engineer", detail: "If you don't have holes, imma create one." },
   { name: "Everyone", role: "Flex", detail: "Whatever role ruins your round the most." },
